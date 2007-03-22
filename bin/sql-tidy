@@ -1,0 +1,12 @@
+#!perl
+# vim:ft=perl:
+
+use strict;
+use warnings;
+
+use SQL::Tidy;
+
+# FIXME: finish me.
+
+$/ = undef;
+print SQL::Tidy->new->tidy(<>);
